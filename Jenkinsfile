@@ -18,7 +18,7 @@ stage('Continuous Testing_feature')
 	}
 stage('Continuous Delivery_feature') 
 	{
-	        
+	        input 'Waiting for Approval from DM'
 	}
 	
 }
