@@ -8,6 +8,16 @@ node('master')
 	{
     		sh 'mvn package'
 	}
-
-	
+    stage('Continuous Deployment_master') 
+	{
+    		
+	}
+    stage('Continuous Testing_master') 
+	{
+    		
+	}
+    stage('Continuous Delivery_master') 
+	{
+    		
+	}
 }
