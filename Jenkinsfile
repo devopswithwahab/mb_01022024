@@ -18,6 +18,6 @@ node('master')
 	}
     stage('Continuous Delivery_master') 
 	{
-    		
+    		input 'Waiting for Approval from DM'
 	}
 }
